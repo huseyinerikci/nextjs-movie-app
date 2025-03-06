@@ -13,7 +13,7 @@ const Tabs = () => {
     },
     {
       name: "En Son",
-      url: "latest",
+      url: "top_rated",
     },
     {
       name: "Yakında Gelecekler",
@@ -22,7 +22,7 @@ const Tabs = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center gap-7 p-5 m-5 bg-gray-100 dark:bg-gray-900">
+    <div className="flex items-center justify-center gap-7 p-5 m-5 bg-gray-100 text-white dark:bg-gray-900">
       {tabs.map((tab, i) => (
         <Link
           key={i}
